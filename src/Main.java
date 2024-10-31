@@ -49,8 +49,8 @@ public class Main {
         int total = 0;
         for (int i = 0; i < 12; i++) {
             total = total + savings;
-            System.out.println("Месяц " + i + " сумма накоплений равна");
-            System.out.println(total);}
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+        }
 
 
         //task 9
@@ -60,8 +60,8 @@ public class Main {
         for (int i = 0; i < 12; i++) {
             totalInBank = totalInBank + totalInBank/100;
             totalInBank = totalInBank + salary;
-            System.out.println("Месяц " + i + " сумма накоплений равна");
-            System.out.println(totalInBank);}
+            System.out.println("Месяц " + i + " сумма накоплений равна " + totalInBank + " рублей");
+        }
 
 
         //task 10
@@ -69,8 +69,7 @@ public class Main {
         int namber = 0;
         for (int i = 1; i < 11; i = i  + 1) {
             namber = namber + 2;
-            System.out.println(" 2 * " + i + " = " );
-            System.out.println(namber);
+            System.out.println(" 2 * " + i + " = " + namber);
 
         }
 
